@@ -1,0 +1,193 @@
+name,price,description,items,is_available,category
+Indian Veg Combo Thali,369,"A complete vegetarian Indian platter with paneer, mixed veg, dal, rice, roti, and dessert.",Paneer Kadhai; Mix Veg; Dal Tadka; Steamed Rice; 2 Pcs Tawa Roti; Salad; Pickle; Papad; 1 Pc Gulab Jamun,true,Thali & Combos
+Indian Egg Combo Thali,379,"A fulfilling egg thali with egg curry, mixed veg, dal, rice, roti, and a sweet treat.",Egg Curry 1 Pc; Mix Veg; Dal Tadka; Steamed Rice; 2 Pcs Tawa Roti; Salad; Pickle; Papad; 1 Pc Gulab Jamun,true,Thali & Combos
+Indian Chicken Combo Thali,469,"A hearty chicken thali with chicken curry, mixed veg, dal, rice, paratha, and dessert.",Chicken Curry 1 Pc; Mix Veg; Dal Tadka; Steamed Rice; 2 Laccha Paratha; Salad; Pickle; Papad; 1 Pc Gulab Jamun,true,Thali & Combos
+Indian Mutton Combo Thali,589,"A royal mutton thali with mutton curry, mixed veg, dal, rice, paratha, and dessert.",Mutton Curry 1 Pc; Mix Veg; Dal Tadka; Steamed Rice; Laccha Paratha; Salad; Pickle; Papad; 1 Pc Gulab Jamun,true,Thali & Combos
+Chinese Veg Combo Thali,389,"A Chinese-style veg platter with Manchurian, noodles, fried rice, paratha, and dessert.",Veg Manchurian Dry; Veg Noodles; Veg Fried Rice; 2 Pcs Laccha Paratha; Kimchi Salad; 1 Pc Gulab Jamun,true,Thali & Combos
+Chinese Paneer Combo Thali,429,"A Chinese-style paneer platter with chilli paneer, noodles, fried rice, and dessert.",Paneer Chilli Dry; Veg Noodles; Veg Fried Rice; 2 Pcs Laccha Paratha; Kimchi Salad; 1 Pc Gulab Jamun,true,Thali & Combos
+Chinese Chicken Combo Thali,469,"A Chinese-style chicken platter with chilli chicken, Hakka noodles, fried rice, and dessert.",Chilli Chicken; Veg Hakka Noodles; Veg Fried Rice; 2 Pcs Laccha Paratha; Kimchi Salad; 1 Pc Gulab Jamun,true,Thali & Combos
+Packaged Drinking Water,20,1000ML — MRP,,true,Beverages — Sips & Brews
+Regular Hot Tea,52,Classic Indian tea brewed with milk and sugar.,,true,Beverages — Sips & Brews
+Popular's Special Masala Chai,59,Our signature masala chai with aromatic spices.,,true,Beverages — Sips & Brews
+Zesty Lemon Tea,49,Refreshing hot tea infused with fresh lemon.,,true,Beverages — Sips & Brews
+Classic Hot Coffee,129,"Freshly brewed hot coffee, rich and aromatic.",,true,Beverages — Sips & Brews
+Fresh Lime Water,90,Cooling lime water with a hint of mint.,,true,Beverages — Sips & Brews
+Refreshing Fresh Lime Soda,119,Sparkling soda with fresh lime juice.,,true,Beverages — Sips & Brews
+Desi Masala Chaas,109,Spiced buttermilk with cumin and curry leaves.,,true,Beverages — Sips & Brews
+Punjabi Sweet Lassi,129,Thick and creamy sweet yogurt drink.,,true,Beverages — Sips & Brews
+Classic Salted Lassi,129,Refreshing salted yogurt drink with cumin.,,true,Beverages — Sips & Brews
+Assorted Soft Drinks,79,"Choice of Pepsi, 7Up, Mirinda, and more.",,true,Beverages — Sips & Brews
+Fizzy Masala Soda,89,Spiced carbonated soda with a tangy kick.,,true,Beverages — Sips & Brews
+Chatpata Masala Coke,109,Coke spiced with masala for a desi twist.,,true,Beverages — Sips & Brews
+Chilled Cold Coffee,189,Iced cold coffee blended to perfection.,,true,Beverages — Sips & Brews
+Indulgent Cold Coffee with Ice Cream,209,Cold coffee topped with a scoop of ice cream.,,true,Beverages — Sips & Brews
+Classic Veg Manchow Soup,209,Spicy vegetable soup with fried noodles topping.,,true,Soul-Warming Soup + Shakes
+Veg Hot & Sour Soup,209,Tangy and spicy vegetable soup with a bold kick.,,true,Soul-Warming Soup + Shakes
+Rich Cream of Tomato Soup,199,Velvety tomato soup with fresh cream.,,true,Soul-Warming Soup + Shakes
+Comforting Veg Sweet Corn Soup,209,Creamy sweet corn soup with vegetables.,,true,Soul-Warming Soup + Shakes
+Veg Noodle Soup,219,Hearty noodle soup with fresh vegetables.,,true,Soul-Warming Soup + Shakes
+Chef's Special Chicken Manchow Soup,219,Spicy chicken soup topped with crispy noodles.,,true,Soul-Warming Soup + Shakes
+Chicken Hot & Sour Soup,219,Tangy and spicy chicken soup with vegetables.,,true,Soul-Warming Soup + Shakes
+Comforting Chicken Sweet Corn Soup,209,Creamy sweet corn soup with shredded chicken.,,true,Soul-Warming Soup + Shakes
+Hearty Chicken Noodle Soup,249,Wholesome chicken noodle soup with vegetables.,,true,Soul-Warming Soup + Shakes
+Regular Milk Shake,159,Classic milk shake in your favourite flavour.,,true,Soul-Warming Soup + Shakes
+Classic Thick Milk Shake,199,Rich thick shake — Vanilla / Strawberry / Butterscotch / Chocolate.,,true,Soul-Warming Soup + Shakes
+Kit Kat Shake,209,Creamy shake loaded with crushed Kit Kat.,,true,Soul-Warming Soup + Shakes
+Oreo Cookie Shake,219,Thick shake blended with Oreo cookies.,,true,Soul-Warming Soup + Shakes
+Mango Bloom,219,Refreshing mango shake with seasonal mango pulp.,,true,Soul-Warming Soup + Shakes
+Choco Brownie Shake,249,Indulgent shake with chocolate brownie chunks.,,true,Soul-Warming Soup + Shakes
+Popular Freak Shake,309,"Over-the-top freak shake with brownie, ice cream, and toppings.",,true,Soul-Warming Soup + Shakes
+Classic Salted French Fries,199,Golden crispy fries sprinkled with salt.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Crunchy Onion Pakoda,169,Crispy onion fritters deep-fried to golden perfection.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Golden Paneer Pakoda,239,Cottage cheese fritters with a crispy coating.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Crispy Chicken Pakoda,329,"Spiced chicken fritters, crunchy outside and juicy inside.",,true,Quick Bites — Rolls | Sandwiches | Snacks
+Creamy Veg Mayo Sandwich,199,Vegetable sandwich with creamy mayo dressing.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Bombay Style Veg Sandwich,199,Classic Mumbai street-style vegetable sandwich.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Crunchy Veg Spring Roll,219,Crispy spring rolls stuffed with seasoned vegetables.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Cheesy Paneer Spring Roll,229,Spring rolls filled with paneer and melted cheese.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Crispy Chicken Spring Roll,259,Golden spring rolls stuffed with spiced chicken.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Crispy Veg Kathi Roll,199,Vegetable-filled Kathi roll wrapped in flaky paratha.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Street Style Egg Kathi Roll,209,Egg-filled Kathi roll with onions and spices.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Popular Spl. Chicken Kathi Roll,219,Our special chicken Kathi roll with signature masala.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Special Pav Bhaji,209,Buttery mashed vegetable curry served with toasted pav.,,true,Quick Bites — Rolls | Sandwiches | Snacks
+Classic Veg Manchurian (Dry/Gravy),259,Veg Manchurian balls in tangy sauce — dry or gravy.,,true,Appetizers — Indo-Chinese Starters
+Sweet & Spicy Honey Chilli Potato,220,Crispy potato tossed in honey chilli sauce.,,true,Appetizers — Indo-Chinese Starters
+Spicy Chilli Paneer (Dry/Gravy),350,Paneer cubes tossed in spicy chilli sauce.,,true,Appetizers — Indo-Chinese Starters
+Paneer 65,324,Crispy spiced paneer bites with curry leaves.,,true,Appetizers — Indo-Chinese Starters
+Zesty Paneer Manchurian Dry,324,Paneer Manchurian tossed in a zesty dry sauce.,,true,Appetizers — Indo-Chinese Starters
+Crispy Paneer Salt & Pepper,350,"Crispy paneer tossed with salt, pepper, and herbs.",,true,Appetizers — Indo-Chinese Starters
+Hot Garlic Tossed Paneer,363,Paneer tossed in a fiery hot garlic sauce.,,true,Appetizers — Indo-Chinese Starters
+Spicy Chilli Mushroom,324,Mushrooms tossed in spicy chilli sauce.,,true,Appetizers — Indo-Chinese Starters
+Crispy Fried Mushroom,324,Golden crispy fried mushrooms with herbs.,,true,Appetizers — Indo-Chinese Starters
+Chilli Tossed Baby Corn,311,Baby corn tossed in spicy chilli sauce.,,true,Appetizers — Indo-Chinese Starters
+Baby Corn Salt & Pepper,311,"Crispy baby corn with salt, pepper, and herbs.",,true,Appetizers — Indo-Chinese Starters
+Veggies Macaroni Pasta,233,Macaroni tossed with vegetables and spices.,,true,Appetizers — Indo-Chinese Starters
+Creamy Macaroni Pasta,311,Macaroni in a rich and creamy white sauce.,,true,Appetizers — Indo-Chinese Starters
+Vegetable Masala Maggi,207,Instant noodles tossed with vegetables and masala.,,true,Appetizers — Indo-Chinese Starters
+Classic Chilli Pasta,259,Pasta tossed in a spicy chilli sauce with veggies.,,true,Appetizers — Indo-Chinese Starters
+Popular's Signature Chilli Chicken,363,Our signature chilli chicken with a fiery sauce.,,true,Appetizers — Indo-Chinese Starters
+Chef's Special Drums of Heaven,415,Crispy chicken drumettes tossed in a sweet-spicy glaze.,,true,Appetizers — Indo-Chinese Starters
+Chicken 65,363,Spicy deep-fried chicken with curry leaves.,,true,Appetizers — Indo-Chinese Starters
+Classic Chicken Manchurian,350,Chicken Manchurian in a tangy Indo-Chinese gravy.,,true,Appetizers — Indo-Chinese Starters
+Fiery Hot Garlic Chicken,350,Chicken tossed in a fiery hot garlic sauce.,,true,Appetizers — Indo-Chinese Starters
+Chicken Salt & Pepper,337,"Crispy chicken tossed with salt, pepper, and herbs.",,true,Appetizers — Indo-Chinese Starters
+Extra Crispy Fried Chicken,337,Double-fried chicken with an extra crunchy coating.,,true,Appetizers — Indo-Chinese Starters
+Smoky Paneer Tikka,279,"Cottage cheese marinated in spiced yogurt, char-grilled in the tandoor.",,true,Tandoor Se — Vegetarian Starters
+Chatpata Achari Paneer Tikka,289,Paneer marinated in tangy pickle spices and grilled.,,true,Tandoor Se — Vegetarian Starters
+Spicy Kalimirch Paneer Tikka,299,Paneer tikka with a bold black pepper marinade.,,true,Tandoor Se — Vegetarian Starters
+Creamy Paneer Malai Tikka,339,Soft paneer marinated in cream and mild spices.,,true,Tandoor Se — Vegetarian Starters
+Char-Grilled Paneer Seekh Kabab,329,Paneer seekh kababs grilled in the tandoor.,,true,Tandoor Se — Vegetarian Starters
+Melt-in-mouth Paneer Malai Seekh,339,Soft and creamy paneer malai seekh kababs.,,true,Tandoor Se — Vegetarian Starters
+Classic Tandoori Mushroom,289,Mushrooms marinated in tandoori spices and grilled.,,true,Tandoor Se — Vegetarian Starters
+Pepper-Spiced Mushroom Tikka,289,Mushroom tikka with a peppery marinade.,,true,Tandoor Se — Vegetarian Starters
+Rich Mushroom Malai Tikka,309,Creamy mushroom tikka with a malai marinade.,,true,Tandoor Se — Vegetarian Starters
+Crispy Hara Bhara Kabab,289,"Spinach and pea patties, crispy outside and soft inside.",,true,Tandoor Se — Vegetarian Starters
+Signature Dahi Ke Kabab,309,Hung curd kababs with a melt-in-mouth texture.,,true,Tandoor Se — Vegetarian Starters
+Popular's Spl. Veg Seekh,289,Our special vegetable seekh kababs grilled in the tandoor.,,true,Tandoor Se — Vegetarian Starters
+Rich Veg Malai Seekh Kabab,309,Creamy vegetable seekh kababs with a malai glaze.,,true,Tandoor Se — Vegetarian Starters
+Char-Roasted Aloo Gobhi,219,Potatoes and cauliflower roasted in the tandoor.,,true,Tandoor Se — Vegetarian Starters
+Signature Tandoori Chicken (H/F),369,Half / Full — classic tandoori chicken marinated in yogurt and spices.,,true,Tandoor Se — Non-Veg Starters
+Creamy Afghani Tandoori Chicken (H/F),389,"Half / Full — chicken in a creamy Afghani marinade, char-grilled.",,true,Tandoor Se — Non-Veg Starters
+Smokey Chicken Tikka,349,Boneless chicken marinated in spices and char-grilled.,,true,Tandoor Se — Non-Veg Starters
+Tangy Achari Chicken Tikka,349,Chicken tikka with a tangy pickle-spice marinade.,,true,Tandoor Se — Non-Veg Starters
+Green Chicken Tikka,349,Chicken tikka marinated in a fresh green herb paste.,,true,Tandoor Se — Non-Veg Starters
+Fiery Chicken Angara Tikka,349,Spicy chicken tikka with a smoky fiery marinade.,,true,Tandoor Se — Non-Veg Starters
+Pepper-crusted Chicken Kalimirch Tikka,369,Chicken tikka with a bold black pepper crust.,,true,Tandoor Se — Non-Veg Starters
+Silky Chicken Malai Tikka,369,Soft chicken tikka in a creamy malai marinade.,,true,Tandoor Se — Non-Veg Starters
+Nawabi Chicken Reshmi Tikka,369,Silky chicken tikka with a royal Nawabi marinade.,,true,Tandoor Se — Non-Veg Starters
+Kalimirch Afghani Chicken,389,Afghani chicken with a black pepper twist.,,true,Tandoor Se — Non-Veg Starters
+Juicy Chicken Seekh Kabab,349,Minced chicken seekh kababs grilled in the tandoor.,,true,Tandoor Se — Non-Veg Starters
+Royal Afghani Seekh Kabab,369,Afghani-style seekh kabab with a creamy marinade.,,true,Tandoor Se — Non-Veg Starters
+Dineout Spl. Mutton Seekh Kabab,519,Premium mutton seekh kabab with our special masala.,,true,Tandoor Se — Non-Veg Starters
+Creamy Paneer Butter Masala,349,Cottage cheese in a rich tomato and butter gravy.,,true,Vegetarian Delights — Indian Main Course
+Traditional Kadhai Paneer,369,Paneer cooked with bell peppers in a kadhai masala.,,true,Vegetarian Delights — Indian Main Course
+Sahi Paneer Royal,369,Royal paneer curry in a rich and creamy gravy.,,true,Vegetarian Delights — Indian Main Course
+Luscious Paneer Lababdar,389,Paneer in a luscious gravy with cream and spices.,,true,Vegetarian Delights — Indian Main Course
+Char-Grilled Paneer Tikka Masala,339,Tandoori paneer tikka simmered in a spiced gravy.,,true,Vegetarian Delights — Indian Main Course
+Popular's Special Paneer Punjabi,379,Our signature Punjabi-style paneer curry.,,true,Vegetarian Delights — Indian Main Course
+Spicy Paneer Kolhapuri,379,Fiery Kolhapuri-style paneer with bold spices.,,true,Vegetarian Delights — Indian Main Course
+Authentic Paneer Handi,329,Paneer slow-cooked in a traditional handi.,,true,Vegetarian Delights — Indian Main Course
+Rich Paneer Do Pyaza,329,Paneer curry with generous onions and rich gravy.,,true,Vegetarian Delights — Indian Main Course
+Classic Paneer Mutter Masala,339,Paneer and green peas in a classic masala gravy.,,true,Vegetarian Delights — Indian Main Course
+Melt-in-Mouth Paneer Kofta,339,Soft paneer kofta balls in a rich gravy.,,true,Vegetarian Delights — Indian Main Course
+Rich Veg Malai Kofta,309,Vegetable kofta in a creamy malai gravy.,,true,Vegetarian Delights — Indian Main Course
+Creamy Mushroom Butter Masala,329,Mushrooms in a rich butter and tomato gravy.,,true,Vegetarian Delights — Indian Main Course
+Smoky Mushroom Tikka Masala,329,Tandoori mushroom tikka in a spiced gravy.,,true,Vegetarian Delights — Indian Main Course
+Fresh Mushroom Mutter Masala,299,Mushrooms and green peas in a flavorful masala.,,true,Vegetarian Delights — Indian Main Course
+Rich Mushroom Do Pyaza,299,Mushroom curry with double the onions.,,true,Vegetarian Delights — Indian Main Course
+Baby Corn Mushroom Masala,329,Baby corn and mushrooms in a spiced gravy.,,true,Vegetarian Delights — Indian Main Course
+Slow-Cooked Mix Veg Handi,259,Seasonal vegetables slow-cooked in a handi.,,true,Vegetarian Delights — Indian Main Course
+Homestyle Bhindi Do Pyaza,209,Okra cooked with onions in a homestyle masala.,,true,Vegetarian Delights — Indian Main Course
+Traditional Aloo Dum,209,Potatoes in a traditional spicy dum masala.,,true,Vegetarian Delights — Indian Main Course
+Classic Aloo Gobhi Masala,219,Potatoes and cauliflower in a classic masala.,,true,Vegetarian Delights — Indian Main Course
+Punjabi Chole Masala,209,Punjabi-style chickpeas in a robust masala gravy.,,true,Vegetarian Delights — Indian Main Course
+Patna's Spl. Chicken Ahunna,1299,"1kg — Patna’s signature chicken Ahunna, slow-cooked with rich spices.",,true,Royal Curries — Non-Veg Main Course
+Signature Chicken Dehati,809,8pcs — rustic village-style chicken curry with bold spices.,,true,Royal Curries — Non-Veg Main Course
+Classic Butter Chicken Masala,419,4pcs — tandoori chicken in a rich tomato and butter gravy.,,true,Royal Curries — Non-Veg Main Course
+Smoky Chicken Tikka Masala,399,4pcs — char-grilled chicken tikka in a spiced gravy.,,true,Royal Curries — Non-Veg Main Course
+Authentic Chicken Handi,389,4pcs — chicken slow-cooked in a traditional handi.,,true,Royal Curries — Non-Veg Main Course
+Fiery Chicken Kolhapuri,389,4pcs — bold Kolhapuri-style spicy chicken curry.,,true,Royal Curries — Non-Veg Main Course
+Bengal Style Chicken Kassa,389,4pcs — Bengali-style chicken in a thick roasted masala.,,true,Royal Curries — Non-Veg Main Course
+Chicken Do Pyaza,379,4pcs — chicken curry with generous onions and rich gravy.,,true,Royal Curries — Non-Veg Main Course
+Slow-Cooked Chicken Istu,389,4pcs — homestyle chicken stew slow-cooked with spices.,,true,Royal Curries — Non-Veg Main Course
+Homestyle Chicken Curry,199,2pcs — classic homestyle chicken curry with aromatic spices.,,true,Royal Curries — Non-Veg Main Course
+Rich Chicken Masala,199,2pcs — chicken in a rich and flavorful masala gravy.,,true,Royal Curries — Non-Veg Main Course
+Rich Mutton Rogan Josh,509,4pcs — Kashmiri-style mutton in a rich red gravy.,,true,Royal Curries — Non-Veg Main Course
+Tender Mutton Do Pyaza,509,4pcs — mutton curry with double the onions.,,true,Royal Curries — Non-Veg Main Course
+Slow-Cooked Mutton Handi,509,4pcs — mutton slow-cooked in a traditional handi.,,true,Royal Curries — Non-Veg Main Course
+Spicy Homestyle Egg Curry,219,4pcs — boiled eggs in a spicy homestyle masala gravy.,,true,Royal Curries — Non-Veg Main Course
+Dhaba Style Egg Masala,179,2pcs — dhaba-style egg curry with a rustic masala.,,true,Royal Curries — Non-Veg Main Course
+Soft Tawa Roti,29,Whole wheat flatbread cooked on a tawa.,,true,Breads and Roti — Fresh from the Tandoor
+Traditional Tandoori Roti,39,Whole wheat bread baked in the clay tandoor.,,true,Breads and Roti — Fresh from the Tandoor
+Butter Tandoori Roti,49,Tandoori roti brushed with fresh butter.,,true,Breads and Roti — Fresh from the Tandoor
+Soft Plain Naan,59,Leavened bread baked in the tandoor.,,true,Breads and Roti — Fresh from the Tandoor
+Rich Butter Naan,79,Naan brushed generously with butter.,,true,Breads and Roti — Fresh from the Tandoor
+Roasted Garlic Butter Naan,89,Naan topped with roasted garlic and butter.,,true,Breads and Roti — Fresh from the Tandoor
+Flaky Laccha Paratha,89,"Multi-layered flaky paratha, crispy and buttery.",,true,Breads and Roti — Fresh from the Tandoor
+Onion Stuffed Kulcha,89,Kulcha stuffed with spiced onion filling.,,true,Breads and Roti — Fresh from the Tandoor
+Premium Paneer Stuffed Kulcha,99,Kulcha stuffed with a rich paneer filling.,,true,Breads and Roti — Fresh from the Tandoor
+Rich Paneer Stuffed Paratha,109,"Paratha stuffed with spiced paneer, served with butter.",,true,Breads and Roti — Fresh from the Tandoor
+Chicken Keema Stuffed Butter Naan,129,Naan stuffed with spiced chicken keema and butter.,,true,Breads and Roti — Fresh from the Tandoor
+Farm Fresh Green Salad,99,"Fresh cucumber, tomato, onion, and lemon.",,true,Fresh Greens — Salad & Raita
+Fire-Roasted Papad (2pcs),69,Papad roasted over an open flame.,,true,Fresh Greens — Salad & Raita
+Crispy Fried Papad (2pcs),79,Papad deep-fried to crispy perfection.,,true,Fresh Greens — Salad & Raita
+Chatpata Masala Papad (2pcs),89,Papad topped with chatpata masala and chutney.,,true,Fresh Greens — Salad & Raita
+Spicy Masala Peanut,89,Roasted peanuts tossed with spicy masala.,,true,Fresh Greens — Salad & Raita
+Chilled Boondi Raita,109,Yogurt with soft boondi and spices.,,true,Fresh Greens — Salad & Raita
+Garden Fresh Mix Veg Raita,129,Yogurt with fresh chopped vegetables and spices.,,true,Fresh Greens — Salad & Raita
+Cooling Kheera Raita,89,Yogurt with grated cucumber and cumin.,,true,Fresh Greens — Salad & Raita
+Refreshing Poodina Raita,89,Yogurt with fresh mint and spices.,,true,Fresh Greens — Salad & Raita
+Warm Gulab Jamun (2pcs),79,Warm milk-solid dumplings soaked in rose-flavored syrup.,,true,Desserts
+Spongy Rasgulla (2pcs),69,Soft spongy rasgulla in light sugar syrup.,,true,Desserts
+Rich Saffron Ras-Malai (2pcs),129,Soft cheese patties in saffron milk with nuts.,,true,Desserts
+Choice of Ice Cream,69,Pick your favourite ice cream flavour.,,true,Desserts
+Steamed Basmati Rice,189,"Fluffy steamed basmati rice, perfect with any curry.",,true,Rice and Biryani — Classics with a Citrus Twist
+Classic Jeera Rice,199,Basmati rice tempered with cumin seeds.,,true,Rice and Biryani — Classics with a Citrus Twist
+Classic Peas Mutter Pulao,219,Basmati rice cooked with green peas and whole spices.,,true,Rice and Biryani — Classics with a Citrus Twist
+Classic Veg Fried Rice,219,Rice stir-fried with vegetables and soy sauce.,,true,Rice and Biryani — Classics with a Citrus Twist
+Mushroom Fried Rice,199,Fried rice with mushrooms and vegetables.,,true,Rice and Biryani — Classics with a Citrus Twist
+Spicy Schezwan Veg Fried Rice,219,Fried rice tossed in fiery Schezwan sauce.,,true,Rice and Biryani — Classics with a Citrus Twist
+Popular's Special Veg Fried Rice,219,Our signature veg fried rice with special masala.,,true,Rice and Biryani — Classics with a Citrus Twist
+Scrambled Egg Fried Rice,219,Fried rice with scrambled eggs and vegetables.,,true,Rice and Biryani — Classics with a Citrus Twist
+Paneer Fried Rice,219,Fried rice with paneer cubes and vegetables.,,true,Rice and Biryani — Classics with a Citrus Twist
+Classic Chicken Fried Rice (PSP),219,Fried rice with chicken and vegetables.,,true,Rice and Biryani — Classics with a Citrus Twist
+Fiery Schezwan Chicken Fried Rice,259,Chicken fried rice tossed in fiery Schezwan sauce.,,true,Rice and Biryani — Classics with a Citrus Twist
+Double Delight Egg & Chicken Fried Rice,279,Fried rice with both egg and chicken.,,true,Rice and Biryani — Classics with a Citrus Twist
+Shahi Veg Dum Biryani,259,"Fragrant basmati with vegetables, saffron, and whole spices.",,true,Rice and Biryani — Classics with a Citrus Twist
+Flavorful Egg Dum Biryani,289,Dum biryani with boiled eggs and aromatic spices.,,true,Rice and Biryani — Classics with a Citrus Twist
+Rich Paneer Dum Biryani,309,Dum biryani with paneer and rich masala.,,true,Rice and Biryani — Classics with a Citrus Twist
+Nawabi Chicken Dum Biryani,329,"Dum biryani with marinated chicken, saffron, and whole spices.",,true,Rice and Biryani — Classics with a Citrus Twist
+Dineout Mutton Dum Biryani,499,Premium mutton dum biryani with fragrant basmati and spices.,,true,Rice and Biryani — Classics with a Citrus Twist
+Classic Yellow Dal Tadka,199,"Yellow lentils tempered with cumin, garlic, and red chili.",,true,Rice and Biryani — Classics with a Citrus Twist
+Veg Hakka Noodles,249,Stir-fried noodles with crunchy vegetables.,,true,Noodles — Wok Classics
+Desi Mix Veg Chowmein,239,Indian-style chowmein with mixed vegetables.,,true,Noodles — Wok Classics
+Spicy Schezwan Veg Noodles,239,Noodles tossed in fiery Schezwan sauce with vegetables.,,true,Noodles — Wok Classics
+Fiery Garlic Veg Noodles,239,Noodles tossed in garlic with vegetables.,,true,Noodles — Wok Classics
+Paneer Hakka Noodles,249,Hakka noodles with paneer and vegetables.,,true,Noodles — Wok Classics
+Mushroom Hakka Noodles,249,Hakka noodles with mushrooms and vegetables.,,true,Noodles — Wok Classics
+Popular's Special Veg Noodles,259,Our signature veg noodles with special masala.,,true,Noodles — Wok Classics
+Classic Chicken Hakka Noodles,299,Hakka noodles with chicken and vegetables.,,true,Noodles — Wok Classics
+Schezwan Tossed Chicken Noodles,289,Chicken noodles tossed in fiery Schezwan sauce.,,true,Noodles — Wok Classics
+Hot Garlic Chicken Noodles,289,Chicken noodles tossed in a hot garlic sauce.,,true,Noodles — Wok Classics
+Egg & Chicken Tossed Noodles,299,Noodles tossed with egg and chicken.,,true,Noodles — Wok Classics
+Popular's Signature Chicken Noodles,309,Our signature chicken noodles with special masala.,,true,Noodles — Wok Classics
