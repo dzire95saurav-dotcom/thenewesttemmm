@@ -1,5 +1,6 @@
 import { menuCategories } from '@/data/menu';
 import type { MenuItem } from '@/types';
+import { AddToCartButton } from './AddToCartButton';
 import { Flame } from 'lucide-react';
 
 const popularItems: MenuItem[] = [
@@ -71,6 +72,9 @@ function ChefSpecialCard({ item, index }: { item: MenuItem; index: number }) {
           <span className="font-serif text-lg font-bold text-saffron-600">
             {item.priceFull ? `\u20B9${item.price} / \u20B9${item.priceFull}` : `\u20B9${item.price}`}
           </span>
+        </div>
+        <div className="mt-3">
+          <AddToCartButton item={item} />
         </div>
       </div>
     </div>
