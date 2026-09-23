@@ -3,11 +3,17 @@ import type { ReactNode } from 'react';
 import type { CartItem, MenuItem } from '@/types';
 
 const STORAGE_KEY = 'popular-dineout-cart';
+const TABLE_STORAGE_KEY = 'popular-dineout-table';
+
+export const TOTAL_TABLES = 20;
 
 export interface CartContextValue {
   items: CartItem[];
   itemCount: number;
   total: number;
+  selectedTable: number | null;
+  selectTable: (table: number) => void;
+  clearTable: () => void;
   getQuantity: (id: string) => number;
   addItem: (item: MenuItem) => void;
   increment: (id: string) => void;
@@ -36,8 +42,20 @@ function loadCart(): CartItem[] {
   }
 }
 
+function loadTable(): number | null {
+  try {
+    const raw = localStorage.getItem(TABLE_STORAGE_KEY);
+    if (!raw) return null;
+    const num = Number(raw);
+    return Number.isInteger(num) && num >= 1 && num <= TOTAL_TABLES ? num : null;
+  } catch {
+    return null;
+  }
+}
+
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>(loadCart);
+  const [selectedTable, setSelectedTable] = useState<number | null>(loadTable);
 
   useEffect(() => {
     try {
@@ -46,6 +64,18 @@ export function CartProvider({ children }: { children: ReactNode }) {
       // ignore quota errors
     }
   }, [items]);
+
+  useEffect(() => {
+    try {
+      if (selectedTable !== null) {
+        localStorage.setItem(TABLE_STORAGE_KEY, String(selectedTable));
+      } else {
+        localStorage.removeItem(TABLE_STORAGE_KEY);
+      }
+    } catch {
+      // ignore quota errors
+    }
+  }, [selectedTable]);
 
   const getQuantity = useCallback(
     (id: string) => items.find((i) => i.id === id)?.quantity ?? 0,
@@ -93,6 +123,14 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const clear = useCallback(() => setItems([]), []);
 
+  const selectTable = useCallback((table: number) => {
+    setSelectedTable(table);
+  }, []);
+
+  const clearTable = useCallback(() => {
+    setSelectedTable(null);
+  }, []);
+
   const itemCount = useMemo(
     () => items.reduce((sum, i) => sum + i.quantity, 0),
     [items]
@@ -108,6 +146,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
       items,
       itemCount,
       total,
+      selectedTable,
+      selectTable,
+      clearTable,
       getQuantity,
       addItem,
       increment,
@@ -115,7 +156,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       removeItem,
       clear,
     }),
-    [items, itemCount, total, getQuantity, addItem, increment, decrement, removeItem, clear]
+    [items, itemCount, total, selectedTable, selectTable, clearTable, getQuantity, addItem, increment, decrement, removeItem, clear]
   );
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;

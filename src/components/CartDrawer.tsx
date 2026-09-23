@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useCart } from '@/hooks/useCart';
+import { TableSelector } from './TableSelector';
 import { X, Minus, Plus, ShoppingCart, Trash2 } from 'lucide-react';
 
 interface CartDrawerProps {
@@ -8,7 +9,7 @@ interface CartDrawerProps {
 }
 
 export function CartDrawer({ open, onClose }: CartDrawerProps) {
-  const { items, itemCount, total, increment, decrement, removeItem, clear } = useCart();
+  const { items, itemCount, total, selectedTable, increment, decrement, removeItem, clear } = useCart();
 
   useEffect(() => {
     if (open) {
@@ -137,6 +138,11 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
               >
                 Clear cart
               </button>
+
+              {/* Table selection */}
+              <div className="mt-4">
+                <TableSelector />
+              </div>
             </div>
 
             {/* Footer with total */}
@@ -149,8 +155,13 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                   &#8377;{total}
                 </span>
               </div>
+              {selectedTable === null && (
+                <p className="mb-2 text-center text-xs font-medium text-maroon-600">
+                  Please select your table number to proceed.
+                </p>
+              )}
               <p className="text-center text-[10px] text-charcoal-400">
-                Taxes included. Pickup / ordering options coming soon.
+                Taxes included. Ordering options coming soon.
               </p>
             </div>
           </>
