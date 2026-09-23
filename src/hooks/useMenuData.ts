@@ -75,6 +75,7 @@ function toMenuItem(item: Thali, fallback?: MenuItem): MenuItem {
     chefSpecial: fallback?.chefSpecial,
     serves: fallback?.serves,
     priceFull: fallback?.priceFull,
+    isAvailable: item.is_available,
   };
 }
 

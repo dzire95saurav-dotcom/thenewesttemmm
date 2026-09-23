@@ -15,6 +15,7 @@ export interface MenuItem {
   chefSpecial?: boolean;
   serves?: string;
   priceFull?: number;
+  isAvailable?: boolean;
 }
 
 export interface ComboItem {
@@ -57,4 +58,11 @@ export interface RestaurantInfo {
   phones: string[];
   heroImage: string;
   heroImageAlt: string;
+}
+
+export interface CartItem {
+  id: string;
+  name: string;
+  price: number;
+  quantity: number;
 }

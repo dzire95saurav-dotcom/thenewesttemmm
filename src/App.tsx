@@ -9,17 +9,21 @@ import { MenuSection } from '@/components/MenuSection';
 import { EndOfMenu } from '@/components/EndOfMenu';
 import { Footer } from '@/components/Footer';
 import { MenuItemCard } from '@/components/MenuItemCard';
+import { CartBar } from '@/components/CartBar';
+import { CartDrawer } from '@/components/CartDrawer';
+import { CartProvider } from '@/context/CartContext';
 import { useMenuData } from '@/hooks/useMenuData';
 import type { MenuCategory } from '@/types';
 import { Search as SearchIcon } from 'lucide-react';
 
-export default function App() {
+function MenuApp() {
   const { categories: menuCategories, loading } = useMenuData();
   const [showOpening, setShowOpening] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('');
   const [footerMounted, setFooterMounted] = useState(false);
   const [footerVisible, setFooterVisible] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
   const stickyRef = useRef<HTMLDivElement>(null);
   const isInitialMount = useRef(true);
 
@@ -178,7 +182,7 @@ export default function App() {
       </div>
 
       {/* Main content */}
-      <main className="mx-auto max-w-6xl px-4 pb-8 sm:px-6">
+      <main className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
         {isSearching ? (
           /* Search results view — shows matches across all categories */
           <div className="py-6">
@@ -238,12 +242,25 @@ export default function App() {
             footerVisible
               ? 'translate-y-0 opacity-100'
               : 'translate-y-8 opacity-0'
-          }`}
+          }`
+          }
           onTransitionEnd={handleFooterTransitionEnd}
         >
           <Footer />
         </div>
       )}
+
+      {/* Floating cart bar + drawer */}
+      <CartBar onOpen={() => setCartOpen(true)} />
+      <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <CartProvider>
+      <MenuApp />
+    </CartProvider>
   );
 }

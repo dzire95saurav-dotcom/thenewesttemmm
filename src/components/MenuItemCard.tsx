@@ -1,5 +1,6 @@
-import type { MenuItem } from '../types';
+import type { MenuItem } from '@/types';
 import { LazyImage } from './LazyImage';
+import { AddToCartButton } from './AddToCartButton';
 import { Flame, Leaf, Drumstick, Egg, Star, ChefHat } from 'lucide-react';
 
 interface MenuItemCardProps {
@@ -130,6 +131,9 @@ export function MenuItemCard({ item, index }: MenuItemCardProps) {
             </span>
           )}
         </div>
+
+        {/* Add to cart */}
+        <AddToCartButton item={item} />
       </div>
     </article>
   );

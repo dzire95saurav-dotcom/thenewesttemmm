@@ -1,5 +1,6 @@
-import type { ComboThali } from '../types';
+import type { ComboThali } from '@/types';
 import { LazyImage } from './LazyImage';
+import { AddToCartButton } from './AddToCartButton';
 import { Check, Leaf, Drumstick, Users, Star } from 'lucide-react';
 
 interface ComboThaliCardProps {
@@ -89,13 +90,20 @@ export function ComboThaliCard({ combo, index }: ComboThaliCardProps) {
             </li>
           ))}
         </ul>
-        <button
-          type="button"
-          disabled={!isAvailable}
-          className="mt-5 w-full rounded-xl bg-saffron-500 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-saffron-600 disabled:cursor-not-allowed disabled:bg-charcoal-200 disabled:text-charcoal-500"
-        >
-          {isAvailable ? 'Order Now' : 'Currently Unavailable'}
-        </button>
+        <div className="mt-5">
+          <AddToCartButton
+            item={{
+              id: combo.id,
+              name: combo.name,
+              description: combo.description,
+              price: combo.price,
+              image: combo.image,
+              imageAlt: combo.imageAlt,
+              diet: combo.diet,
+              isAvailable,
+            }}
+          />
+        </div>
       </div>
     </article>
   );
