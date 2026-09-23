@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useCart } from '@/hooks/useCart';
 import { TableSelector } from './TableSelector';
-import { X, Minus, Plus, ShoppingCart, Trash2 } from 'lucide-react';
+import { buildWhatsAppUrl } from '@/utils/whatsappOrder';
+import { X, Minus, Plus, ShoppingCart, Trash2, MessageCircle, Loader2 } from 'lucide-react';
 
 interface CartDrawerProps {
   open: boolean;
@@ -10,6 +11,8 @@ interface CartDrawerProps {
 
 export function CartDrawer({ open, onClose }: CartDrawerProps) {
   const { items, itemCount, total, selectedTable, increment, decrement, removeItem, clear } = useCart();
+  const [placing, setPlacing] = useState(false);
+  const [error, setError] = useState('');
 
   useEffect(() => {
     if (open) {
@@ -19,6 +22,33 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
       };
     }
   }, [open]);
+
+  useEffect(() => {
+    if (!open) {
+      setPlacing(false);
+      setError('');
+    }
+  }, [open]);
+
+  const handlePlaceOrder = () => {
+    if (items.length === 0) {
+      setError('Your cart is empty.');
+      return;
+    }
+    if (selectedTable === null) {
+      setError('Please select your table number.');
+      return;
+    }
+    setError('');
+    setPlacing(true);
+
+    const url = buildWhatsAppUrl(items, total, itemCount, selectedTable);
+
+    window.setTimeout(() => {
+      window.open(url, '_blank', 'noopener,noreferrer');
+      setPlacing(false);
+    }, 800);
+  };
 
   if (!open) return null;
 
@@ -34,7 +64,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
       {/* Drawer panel */}
       <div className="relative flex h-full w-full max-w-md flex-col bg-cream-50 shadow-2xl animate-slide-in-right">
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-cream-200 px-4 py-4 sm:px-5">
+        <div className="flex shrink-0 items-center justify-between border-b border-cream-200 px-4 py-4 sm:px-5">
           <div className="flex items-center gap-2">
             <ShoppingCart className="h-5 w-5 text-saffron-600" />
             <h2 className="font-serif text-lg font-bold text-plum-900">Your Cart</h2>
@@ -146,7 +176,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
             </div>
 
             {/* Footer with total */}
-            <div className="border-t border-cream-200 bg-white px-4 py-4 sm:px-5">
+            <div className="flex shrink-0 flex-col border-t border-cream-200 bg-white px-4 py-4 sm:px-5">
               <div className="mb-3 flex items-center justify-between">
                 <span className="text-sm font-medium text-charcoal-600">
                   Total ({itemCount} item{itemCount !== 1 ? 's' : ''})
@@ -155,13 +185,31 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                   &#8377;{total}
                 </span>
               </div>
-              {selectedTable === null && (
+              {error && (
                 <p className="mb-2 text-center text-xs font-medium text-maroon-600">
-                  Please select your table number to proceed.
+                  {error}
                 </p>
               )}
-              <p className="text-center text-[10px] text-charcoal-400">
-                Taxes included. Ordering options coming soon.
+              <button
+                type="button"
+                onClick={handlePlaceOrder}
+                disabled={placing}
+                className="flex w-full items-center justify-center gap-2 rounded-full bg-green-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg transition-all hover:bg-green-700 active:scale-95 disabled:cursor-not-allowed disabled:opacity-70 sm:py-4 sm:text-base"
+              >
+                {placing ? (
+                  <>
+                    <Loader2 className="h-5 w-5 animate-spin" />
+                    Opening WhatsApp…
+                  </>
+                ) : (
+                  <>
+                    <MessageCircle className="h-5 w-5" />
+                    Place Order
+                  </>
+                )}
+              </button>
+              <p className="mt-2 text-center text-[10px] text-charcoal-400">
+                You'll review the message in WhatsApp before sending.
               </p>
             </div>
           </>
