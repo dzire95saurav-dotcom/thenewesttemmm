@@ -2,7 +2,7 @@ import { useCart } from '@/hooks/useCart';
 
 export function TableSelector() {
   const { selectedTable, selectTable, clearTable } = useCart();
-  const tableNumbers = Array.from({ length: 20 }, (_, i) => i + 1);
+  const tableNumbers = Array.from({ length: 10 }, (_, i) => i + 1);
 
   return (
     <div className="rounded-xl border border-cream-200 bg-white p-3 shadow-sm sm:p-4">
